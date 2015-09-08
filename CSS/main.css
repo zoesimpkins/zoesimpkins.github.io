@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d8d8d8;
+}
+
+.siteHeader {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/pattern.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    background: #f7f7f7;
+    border-bottom: 3px solid #000;
+}
+.banner__logo {
+    float: left;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.banner__nav {
+    float: right;
+}
+.banner__nav-links {
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.banner__nav__link {
+    float: left;
+    display: block;
+}
+
+.banner__nav__link a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 0.825em;
+}
+
+.banner__nav__link a:hover,
+.banner__nav__link a: focus {
+    color: #ff008a
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear:both;
+}
+
+.pageTitle {
+    padding: 30px 0 50px 0;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    background-color: #111;
+    bottom: 0;
+    margin: 0;
+    }
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: -40px auto 40px auto;
+    position: relative;
+}
+
+.content {
+    background-color: #f7f7f7;
+    padding: 2em 3em;
+    width: 70%;
+    float: left;
+    margin-right: 3%;
+}
+.sidebar { 
+    width: 27%;
+    background-color: #f7f7f7;
+    padding: 1em;
+    float: left;
+}
+
+.about {
+    text-align: center;
+    font-style: italic;
+}
+
+.importantLinks {
+}
+
+.importantLinks h2,
+.class h2,
+.sidebar h2 {
+    border-bottom: 3px solid #ff008a;
+}
+
+.importantLinks section {
+    width: 48%;
+    float: left;
+}
+
+.importantLinks section:first-of-type {
+    margin-right: 4%;
+}
+
+.websites,
+.resources {
+    list-style: none;
+    padding: 0;
+}
+
+.website__item,
+.resource__item {
+    padding: 5px 0px;
+    border-bottom: 1px dotted grey;
+}
+
+a {
+    color: #ff008a;
+    text-decoration: none;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+.roster {
+    padding: 0;
+    list-style: none;
+}
+
+.student {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    border-bottom: 3px solid grey;
+    padding-bottom: 10px;
+}
+
+.student:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.student h4 {
+    margin: 0;
+}
+    
+    
